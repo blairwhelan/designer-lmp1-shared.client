@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800100,
+  "DesignIdentifier": "VersionComponents",
+  "Name": {"en": "Version Components"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "Client.Content.Build": {"en": "Client Content Build"},
+    "Client.Design.Build": {"en": "Client Design Build"},
+    "Shared.Design.Build": {"en": "Shared Design Build"}
+  }}

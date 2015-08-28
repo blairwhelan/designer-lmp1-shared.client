@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 21159000000003,
+  "DesignIdentifier": "report.summarized.by",
+  "Name": {"en": "Report Summarized By"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "Day": {"en": "Day"},
+    "Month": {"en": "Month"},
+    "Quarter": {"en": "Quarter"}
+  }}

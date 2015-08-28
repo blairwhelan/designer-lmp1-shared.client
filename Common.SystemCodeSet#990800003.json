@@ -1,0 +1,21 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800003,
+  "DesignIdentifier": "DateRelativeMeasures",
+  "Name": {"en": "Date Relative Measures"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "1": {"en": "Years"},
+    "10": {"en": "Hours"},
+    "12": {"en": "Minutes"},
+    "13": {"en": "Seconds"},
+    "2": {"en": "Months"},
+    "5": {"en": "Days"}
+  }}

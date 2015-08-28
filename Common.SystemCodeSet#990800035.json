@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800035,
+  "DesignIdentifier": "ConfirmationStatus",
+  "Name": {"en": "Confirmation Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "0": {"en": "Pending"},
+    "1": {"en": "Confirmed"},
+    "2": {"en": "Disqualified"}
+  }}

@@ -1,0 +1,20 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800098,
+  "DesignIdentifier": "ParametricPromotionStatus",
+  "Name": {"en": "Parametric Promotion Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "A": {"en": "Active"},
+    "AC": {"en": "Activating"},
+    "AF": {"en": "Activation Failed"},
+    "C": {"en": "Cancelled"},
+    "D": {"en": "In Design"}
+  }}

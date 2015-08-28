@@ -1,0 +1,21 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800031,
+  "DesignIdentifier": "TelephoneCallStatus",
+  "Name": {"en": "Telephone Call Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "0": {"en": "Created"},
+    "1": {"en": "Sent to call center"},
+    "2": {"en": "Did not reach"},
+    "3": {"en": "Left Callback Message"},
+    "4": {"en": "Reached"},
+    "5": {"en": "Abandoned"}
+  }}

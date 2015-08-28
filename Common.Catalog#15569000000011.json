@@ -1,0 +1,28 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.Catalog",
+  "Id": 15569000000011,
+  "DesignIdentifier": "exchange.rate.catalog",
+  "Name": {"en": "Exchange Rate Catalog"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "ExchangeFromId": 99219,
+  "SubCategoryColumns": 3,
+  "ItemColumns": 3,
+  "ItemsPerPage": 0,
+  "CatalogCategoryList": {
+    "Id": 1000000004,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CatalogCategory"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

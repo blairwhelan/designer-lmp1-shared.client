@@ -1,0 +1,325 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.Client",
+  "Id": 9989,
+  "DesignIdentifier": "test.client",
+  "Name": {"en": "Test Client"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "Autopublish": false,
+  "ProgramName": {},
+  "ClientCode": "AAD",
+  "ClientEnvironmentList": {
+    "Id": 152000000051,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ClientEnvironment"
+    },
+    "ValueObjectList": [
+      {
+        "ItemKey": "152000000052",
+        "ValueObject": {
+          "ClientBuildId": 0,
+          "ControlCenterContextPath": "controlcenter",
+          "CustomProperties": {
+            "Id": 152000000053,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.Property"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "EmailDeliveryServiceId": 42000000015,
+          "EmailServer": "",
+          "EmailServerPort": "25",
+          "EnvironmentType": "dev",
+          "ErrorNotificationEmail": "errors@localhost.com",
+          "Id": 152000000052,
+          "MultiCastIp": "",
+          "MultiCastPort": "",
+          "ProgramDomain": "localhost",
+          "ReportingWaitTime": 0,
+          "TransactionDataSource": {
+            "DatabaseHost": "76f60f9c4cd65ca2b1a56315f6d3bebf",
+            "DatabaseName": "test_client_dev",
+            "DatabasePort": 5432,
+            "DatabaseUrl": "",
+            "Id": 89000000010,
+            "MaximumConnections": 100,
+            "MinimumConnections": 1,
+            "Password": "7bf532f804643ec0cc29188d81c7ecfe",
+            "UseSSL": false,
+            "UserName": "f18be71485e9fcf0c2ee6f63cc2a4502",
+            "__TypeCode__": "Common.PostgresDataSourceDefinition",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Common.ClientEnvironment",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "152000000054",
+        "ValueObject": {
+          "ClientBuildId": 0,
+          "ControlCenterContextPath": "controlcenter",
+          "CustomProperties": {
+            "Id": 152000000055,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.Property"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "EmailDeliveryServiceId": 42000000015,
+          "EmailServer": "",
+          "EmailServerPort": "25",
+          "EnvironmentType": "qa",
+          "ErrorNotificationEmail": "errors@localhost.com",
+          "Id": 152000000054,
+          "MultiCastIp": "",
+          "MultiCastPort": "",
+          "ProgramDomain": "localhost",
+          "ReportingWaitTime": 0,
+          "TransactionDataSource": {
+            "DatabaseHost": "76f60f9c4cd65ca2b1a56315f6d3bebf",
+            "DatabaseName": "test_client_qa",
+            "DatabasePort": 5432,
+            "DatabaseUrl": "",
+            "Id": 89000000011,
+            "MaximumConnections": 100,
+            "MinimumConnections": 1,
+            "Password": "7bf532f804643ec0cc29188d81c7ecfe",
+            "UseSSL": false,
+            "UserName": "f18be71485e9fcf038b220c9e46e5bfa",
+            "__TypeCode__": "Common.PostgresDataSourceDefinition",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Common.ClientEnvironment",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "152000000056",
+        "ValueObject": {
+          "ClientBuildId": 0,
+          "ControlCenterContextPath": "controlcenter",
+          "CustomProperties": {
+            "Id": 152000000057,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.Property"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "EmailDeliveryServiceId": 42000000015,
+          "EmailServer": "",
+          "EmailServerPort": "25",
+          "EnvironmentType": "autotest",
+          "ErrorNotificationEmail": "errors@localhost.com",
+          "Id": 152000000056,
+          "MultiCastIp": "",
+          "MultiCastPort": "",
+          "ProgramDomain": "localhost",
+          "ReportingWaitTime": 0,
+          "TransactionDataSource": {
+            "DatabaseHost": "76f60f9c4cd65ca2b1a56315f6d3bebf",
+            "DatabaseName": "test_client_autotest",
+            "DatabasePort": 5432,
+            "DatabaseUrl": "",
+            "Id": 89000000012,
+            "MaximumConnections": 100,
+            "MinimumConnections": 1,
+            "Password": "7bf532f804643ec0cc29188d81c7ecfe",
+            "UseSSL": false,
+            "UserName": "f18be71485e9fcf0a92536851c443adba9d4d3c0c21ae492",
+            "__TypeCode__": "Common.PostgresDataSourceDefinition",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Common.ClientEnvironment",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "152000000058",
+        "ValueObject": {
+          "ClientBuildId": 0,
+          "ControlCenterContextPath": "controlcenter",
+          "CustomProperties": {
+            "Id": 152000000059,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.Property"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "EmailDeliveryServiceId": 42000000015,
+          "EmailServer": "",
+          "EmailServerPort": "25",
+          "EnvironmentType": "ua",
+          "ErrorNotificationEmail": "errors@localhost.com",
+          "Id": 152000000058,
+          "MultiCastIp": "",
+          "MultiCastPort": "",
+          "ProgramDomain": "localhost",
+          "ReportingWaitTime": 0,
+          "TransactionDataSource": {
+            "DatabaseHost": "76f60f9c4cd65ca2b1a56315f6d3bebf",
+            "DatabaseName": "test_client_ua",
+            "DatabasePort": 5432,
+            "DatabaseUrl": "",
+            "Id": 89000000013,
+            "MaximumConnections": 100,
+            "MinimumConnections": 1,
+            "Password": "7bf532f804643ec0cc29188d81c7ecfe",
+            "UseSSL": false,
+            "UserName": "f18be71485e9fcf0eef0eca6a6650ef9",
+            "__TypeCode__": "Common.PostgresDataSourceDefinition",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Common.ClientEnvironment",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "152000000060",
+        "ValueObject": {
+          "ClientBuildId": 0,
+          "ControlCenterContextPath": "controlcenter",
+          "CustomProperties": {
+            "Id": 152000000061,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.Property"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "EmailDeliveryServiceId": 42000000015,
+          "EmailServer": "",
+          "EmailServerPort": "25",
+          "EnvironmentType": "loadtest",
+          "ErrorNotificationEmail": "errors@localhost.com",
+          "Id": 152000000060,
+          "MultiCastIp": "",
+          "MultiCastPort": "",
+          "ProgramDomain": "localhost",
+          "ReportingWaitTime": 0,
+          "TransactionDataSource": {
+            "DatabaseHost": "76f60f9c4cd65ca2b1a56315f6d3bebf",
+            "DatabaseName": "test_client_loadtest",
+            "DatabasePort": 5432,
+            "DatabaseUrl": "",
+            "Id": 89000000014,
+            "MaximumConnections": 100,
+            "MinimumConnections": 1,
+            "Password": "7bf532f804643ec0cc29188d81c7ecfe",
+            "UseSSL": false,
+            "UserName": "f18be71485e9fcf0a83583e032f59f17ebf584126f676441",
+            "__TypeCode__": "Common.PostgresDataSourceDefinition",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Common.ClientEnvironment",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "152000000062",
+        "ValueObject": {
+          "ClientBuildId": 0,
+          "ControlCenterContextPath": "controlcenter",
+          "CustomProperties": {
+            "Id": 152000000063,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.Property"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "EmailDeliveryServiceId": 42000000015,
+          "EmailServer": "",
+          "EmailServerPort": "25",
+          "EnvironmentType": "live",
+          "ErrorNotificationEmail": "errors@localhost.com",
+          "Id": 152000000062,
+          "MultiCastIp": "",
+          "MultiCastPort": "",
+          "ProgramDomain": "localhost",
+          "ReportingWaitTime": 0,
+          "TransactionDataSource": {
+            "DatabaseHost": "76f60f9c4cd65ca2b1a56315f6d3bebf",
+            "DatabaseName": "test_client_live",
+            "DatabasePort": 5432,
+            "DatabaseUrl": "",
+            "Id": 89000000015,
+            "MaximumConnections": 100,
+            "MinimumConnections": 1,
+            "Password": "7bf532f804643ec0cc29188d81c7ecfe",
+            "UseSSL": false,
+            "UserName": "f18be71485e9fcf0112e5f9b7036c21ce09cec9e98df9093",
+            "__TypeCode__": "Common.PostgresDataSourceDefinition",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Common.ClientEnvironment",
+          "__Type__": "Vo"
+        }
+      }
+    ],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "ProgramStartDate": "null",
+  "ProgramPeriodType": "M",
+  "ProgramPeriodCount": 12,
+  "SupplierList": [],
+  "FiscalYearStartingMonth": "1",
+  "LanguageCodeList": ["en"],
+  "DefaultLanguageCode": "en",
+  "DropDownRequiredFieldPrompt": {},
+  "ExampleDataFormatLabel": {},
+  "OverViewPageName": "",
+  "FaqPageName": "",
+  "TermsAndConditionsPageName": "",
+  "PrivacyPageName": "",
+  "NumberFormatCode": "dataformat.standard.number",
+  "BooleanFormatCode": "dataformat.boolean.yes.no",
+  "DateFormatCode": "dataformat.date.yyyy/mm/dd",
+  "DateTimeFormatCode": "dataformat.date.time.display",
+  "CanadianPostalFormatCode": "",
+  "UsZipFormatCode": "",
+  "MinUserNameLength": 5,
+  "MaxUserNameLength": 100,
+  "MinPasswordLength": 5,
+  "MaxPasswordLength": 20,
+  "MinNumberPassCharGroups": 0,
+  "PassMustContainLowerCase": false,
+  "PassMustContainUpperCase": false,
+  "PasssMustContainNumber": false,
+  "PasssMustContainSpecialChar": false,
+  "PasssMayContainUserName": true,
+  "NumMonthsPassNotRepeat": 0,
+  "UnsuccessfulAttemptsLimit": 5,
+  "UnsuccessfulAttemptsPeriod": 5,
+  "MinutesToDisableAccount": 5,
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

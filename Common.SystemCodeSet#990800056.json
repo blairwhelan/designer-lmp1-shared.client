@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800056,
+  "DesignIdentifier": "ClaimDisputeStatus",
+  "Name": {"en": "Claim Dispute Status Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "D": {"en": "Denied"},
+    "O": {"en": "Open"},
+    "R": {"en": "Reassigned"}
+  }}

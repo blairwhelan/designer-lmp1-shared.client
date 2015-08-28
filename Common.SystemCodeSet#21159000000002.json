@@ -1,0 +1,21 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 21159000000002,
+  "DesignIdentifier": "report.date.ranges",
+  "Name": {"en": "Report Date Ranges"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "C": {"en": "Custom"},
+    "LM": {"en": "Last Month"},
+    "LY": {"en": "Last Year"},
+    "MTD": {"en": "Month to Date"},
+    "PTD": {"en": "Program to Date"},
+    "YTD": {"en": "Year to Date"}
+  }}

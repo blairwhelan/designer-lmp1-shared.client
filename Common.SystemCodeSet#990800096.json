@@ -1,0 +1,23 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800096,
+  "DesignIdentifier": "DataFormatTypes",
+  "Name": {"en": "Data Format Types"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "DataFormat.All": {"en": "Any Data Format"},
+    "DataFormat.Boolean": {"en": "Boolean Formats"},
+    "DataFormat.Date": {"en": "Date Data Formats"},
+    "DataFormat.Decimal.Number": {"en": "Decimal Number Formats"},
+    "DataFormat.Id": {"en": "Id Formats"},
+    "DataFormat.Number": {"en": "Number Data Formats"},
+    "DataFormat.Percentage.Number": {"en": "Percentage Formats"},
+    "DataFormat.String": {"en": "String Formats"}
+  }}

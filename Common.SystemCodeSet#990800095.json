@@ -1,0 +1,14 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800095,
+  "DesignIdentifier": "CashPaymentMessages",
+  "Name": {"en": "Cash Payment Messages"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {"CASH_PAYMENT": {"en": "Cash Payment %MergeValue%"}}}

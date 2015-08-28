@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800105,
+  "DesignIdentifier": "CharacterSets",
+  "Name": {"en": "Character Sets"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "EBCDIC": {"en": "EBCDIC Character Set"},
+    "US-ASCII": {"en": "US ASCII (7-bit) Character Set"},
+    "UTF-8": {"en": "UTF 8 Character Set"},
+    "windows-1252": {"en": "Windows 1252 Character Set"}
+  }}

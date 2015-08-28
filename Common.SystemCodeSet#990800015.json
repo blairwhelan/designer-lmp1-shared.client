@@ -1,0 +1,20 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800015,
+  "DesignIdentifier": "FulfilmentFailureType",
+  "Name": {"en": "User Goods Fulfilment Failure Type"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "1": {"en": "Invalid Address"},
+    "2": {"en": "Refused Delivery"},
+    "3": {"en": "Invalid Email"},
+    "4": {"en": "Invalid Name"},
+    "5": {"en": "Not at Address"}
+  }}

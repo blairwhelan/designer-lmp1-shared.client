@@ -1,0 +1,20 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800101,
+  "DesignIdentifier": "ScheduledWorkflowStatus",
+  "Name": {"en": "Scheduled Workflow Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "AP": {"en": "Awaiting Processing"},
+    "F": {"en": "Failed"},
+    "P": {"en": "Processing"},
+    "SF": {"en": "Schedule Finished"},
+    "TO": {"en": "Turned Off"}
+  }}

@@ -1,0 +1,77 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemRole",
+  "Id": 99030008,
+  "DesignIdentifier": "Supplier.Admin.Role",
+  "Name": {"en": "Supplier Admin Role"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DefaultSystemPrivilegesId": 992300004,
+  "PersonalSystemPrivilegesId": 85124,
+  "UserInterfaceIdList": [],
+  "PasswordSettingsId": 0,
+  "UserGroupSystemPrivilegesList": {
+    "Id": 97868,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.UserGroupSystemPrivileges"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "UserInterfacePrivilegeList": {
+    "Id": 97869,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.UserInterfacePrivilege"
+    },
+    "ValueObjectList": [
+      {
+        "ItemKey": "5000000042",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000042,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2106,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000046",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000046,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2109,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      }
+    ],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "ControlCenterPrivilegesList": {
+    "Id": 388000001030,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ControlCenterPrivilege"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

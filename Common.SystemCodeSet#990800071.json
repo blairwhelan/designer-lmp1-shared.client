@@ -1,0 +1,24 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800071,
+  "DesignIdentifier": "ReferralDenialReasonCodes",
+  "Name": {"en": "Referral Denial Reason Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "IREA": {"en": "Invalid Referee Account"},
+    "IRRA": {"en": "Invalid Referrer Account"},
+    "RAR": {"en": "Referee Already Registered"},
+    "REAC": {"en": "Referee Account Cancelled"},
+    "REFDN": {"en": "Referrer Declined"},
+    "RRAC": {"en": "Referrer Account Cancelled"},
+    "XNREG": {"en": "Expired - No Registration"},
+    "XNRSP": {"en": "Expired - No Response"},
+    "XNV": {"en": "Expired - No Verification"}
+  }}

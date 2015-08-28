@@ -1,0 +1,89 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "CustomEntity.CustomSharedRecordType",
+  "Id": 99637,
+  "DesignIdentifier": "TestSharedTable",
+  "Name": {"en": "Test Shared Table"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "testSharedTable",
+  "CreateWebFormId": 0,
+  "EditWebFormId": 0,
+  "ValidationRuleList": {
+    "Id": 6000000010,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ValidationRule"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "Autopublish": false,
+  "NamedObjectList": {
+    "Id": 6000000011,
+    "NamedObjectList": true,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.NamedObject"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "CalculatedFieldList": {
+    "Id": 6000000012,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CalculatedField"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [
+    {
+      "Active": true,
+      "AttributeType": "Boolean",
+      "CalculatedFieldId": 0,
+      "Code": "testBoolean",
+      "Custom": true,
+      "DataFormatCode": "",
+      "Deprecated": false,
+      "EditOnAdd": true,
+      "EditOnUpdate": true,
+      "Hidden": false,
+      "Name": {"en": "Test Boolean"},
+      "Required": false,
+      "ShowInList": true,
+      "Weight": 1
+    },
+    {
+      "Active": true,
+      "AttributeType": "Number",
+      "CalculatedFieldId": 0,
+      "Code": "testNumber",
+      "Custom": true,
+      "DataFormatCode": "",
+      "DecimalPlaces": 0,
+      "DefaultValue": 0,
+      "Deprecated": false,
+      "EditOnAdd": true,
+      "EditOnUpdate": true,
+      "Hidden": false,
+      "IntegerWidth": 10,
+      "MaximumValue": 0,
+      "MinimumValue": 0,
+      "Name": {"en": "Test Number"},
+      "NegativeAllowed": true,
+      "Required": false,
+      "ShowInList": true,
+      "UseBounds": false,
+      "Weight": 1
+    }
+  ],
+  "ModifiedStandardAttributeList": []}

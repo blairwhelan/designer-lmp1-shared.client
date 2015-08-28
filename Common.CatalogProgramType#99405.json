@@ -1,0 +1,48 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.CatalogProgramType",
+  "Id": 99405,
+  "DesignIdentifier": "CatalogProgramType1",
+  "Name": {"en": "Catalog Program Type 1"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "CreateWebFormId": 0,
+  "EditWebFormId": 0,
+  "ValidationRuleList": {
+    "Id": 5000000079,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ValidationRule"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "NamedObjectList": {
+    "Id": 3789000000080,
+    "NamedObjectList": true,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.NamedObject"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "CalculatedFieldList": {
+    "Id": 3789000000081,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CalculatedField"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

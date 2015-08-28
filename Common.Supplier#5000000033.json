@@ -1,0 +1,15 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.Supplier",
+  "Id": 5000000033,
+  "DesignIdentifier": "Razr",
+  "Name": {"en": "Razr Marketing"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "Autopublish": false,
+  "MembershipCardId": 0,
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

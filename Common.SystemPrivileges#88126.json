@@ -1,0 +1,57 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemPrivileges",
+  "Id": 88126,
+  "DesignIdentifier": "User.Record.Update",
+  "Name": {"en": "User Record Update"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "BusinessObjectPrivilegeList": {
+    "Id": 125000002051,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.BusinessObjectPrivilege"
+    },
+    "ValueObjectList": [
+      {
+        "ItemKey": "125000002054",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": false,
+          "AllowStore": true,
+          "Id": 125000002054,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.UserValueObject"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "125000002055",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": false,
+          "AllowStore": true,
+          "Id": 125000002055,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.DataProcessOutcome"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      }
+    ],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

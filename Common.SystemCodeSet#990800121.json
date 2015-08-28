@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800121,
+  "DesignIdentifier": "RedemptionType",
+  "Name": {"en": "Redemption Type"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "F": {"en": "Fixed point redemption"},
+    "V": {"en": "Value-based Redemption"}
+  }}

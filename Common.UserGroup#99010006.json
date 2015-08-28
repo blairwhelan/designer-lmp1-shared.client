@@ -1,0 +1,80 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.UserGroup",
+  "Id": 99010006,
+  "DesignIdentifier": "SupplierAdmin",
+  "Name": {"en": "Supplier Administrators"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "CreateWebFormId": 0,
+  "EditWebFormId": 0,
+  "ValidationRuleList": {
+    "Id": 1000000012,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ValidationRule"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "Description": {},
+  "UserGroupClassTypeCode": "Common.Person",
+  "Numbering": "null",
+  "SystemRoleId": 99030008,
+  "MailingAddressType": 0,
+  "ShippingAddressType": 0,
+  "ShippingAddressSameAsMailing": false,
+  "IdentifierUsedAsUserName": false,
+  "RegisterWebFormId": 0,
+  "ViewWebFormId": 0,
+  "NamedObjectList": {
+    "Id": 1000000013,
+    "NamedObjectList": true,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.NamedObject"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "CalculatedFieldList": {
+    "Id": 1000000014,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CalculatedField"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [{
+    "Active": true,
+    "AllowsRecordNotFound": false,
+    "AttributeType": "Id",
+    "CalculatedFieldId": 0,
+    "Code": "SupplierId",
+    "Custom": true,
+    "DefaultValue": 0,
+    "Deprecated": false,
+    "EditAsTextBox": false,
+    "EditOnAdd": true,
+    "EditOnUpdate": true,
+    "Hidden": false,
+    "IdType": {
+      "DesignId": 0,
+      "TypeCode": "Common.Supplier"
+    },
+    "IndexInDatabase": false,
+    "Name": {"en": "Supplier"},
+    "Required": true,
+    "ShowInList": true,
+    "Weight": 1
+  }],
+  "ModifiedStandardAttributeList": []}

@@ -1,0 +1,21 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800019,
+  "DesignIdentifier": "TimeUnits",
+  "Name": {"en": "Time Unit Code Set"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "1": {"en": "Year"},
+    "10": {"en": "Hour"},
+    "12": {"en": "Minute"},
+    "13": {"en": "Second"},
+    "2": {"en": "Month"},
+    "5": {"en": "Day"}
+  }}

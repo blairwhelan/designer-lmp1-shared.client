@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800017,
+  "DesignIdentifier": "EncryptionMethods",
+  "Name": {"en": "Fulfilment File Encryption Methods"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "PGP": {"en": "PCP Encrypted"},
+    "PLAIN": {"en": "Unencrypted Plain Text"}
+  }}

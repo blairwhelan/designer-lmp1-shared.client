@@ -1,0 +1,24 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800013,
+  "DesignIdentifier": "FulfilmentStatus",
+  "Name": {"en": "User Goods Fulfilment Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "0": {"en": "No Fulfilment Required"},
+    "1": {"en": "Waiting for User Information"},
+    "2": {"en": "Fulfilment Pending"},
+    "3": {"en": "Sent to Fulfilment Agent"},
+    "4": {"en": "Goods Shipped"},
+    "5": {"en": "Back-ordered"},
+    "6": {"en": "Email Sent"},
+    "8": {"en": "Cancelled"},
+    "9": {"en": "Fulfilment Failed"}
+  }}

@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Communication.SmtpEmailDeliveryService",
+  "Id": 3000000013,
+  "DesignIdentifier": "SendGrid",
+  "Name": {"en": "SendGrid Email Service"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "OverrideToAddress": "",
+  "SmtpHostName": "sendgrid",
+  "SmtpPort": "25",
+  "SmtpUsername": "",
+  "SmtpPassword": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

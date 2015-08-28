@@ -1,0 +1,28 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800046,
+  "DesignIdentifier": "ChallengeQuestions",
+  "Name": {"en": "Challenge Questions"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "Birth": {"en": "Town / City you were born in"},
+    "Car": {"en": "First Car you owned"},
+    "FS": {"en": "High School Attended"},
+    "Father": {"en": "Father's Middle Name"},
+    "FirstPet": {"en": "First Pet's Name"},
+    "Food": {"en": "Favorite Food"},
+    "Friend": {"en": "Best Friend's Last Name"},
+    "IceCream": {"en": "Favorite Ice Cream Flavor"},
+    "Maiden": {"en": "Mother's Maiden Name"},
+    "PS": {"en": "Partner's High School"},
+    "Pet": {"en": "Pet's Name"},
+    "Street": {"en": "First Street you lived on"},
+    "Town": {"en": "Town / City you grew up in"}
+  }}

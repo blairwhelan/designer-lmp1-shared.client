@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800009,
+  "DesignIdentifier": "RuleSummarization",
+  "Name": {"en": "Rules Summarization Type"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "BASE": {"en": "Base Rule"},
+    "BONUS": {"en": "Bonus Rule"}
+  }}

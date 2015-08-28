@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800029,
+  "DesignIdentifier": "DirectMailStatus",
+  "Name": {"en": "Direct Mail Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "0": {"en": "Created"},
+    "1": {"en": "Sent to agent"},
+    "2": {"en": "Mailed"},
+    "3": {"en": "Returned"}
+  }}

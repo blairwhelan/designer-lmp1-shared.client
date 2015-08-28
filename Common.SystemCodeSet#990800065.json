@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800065,
+  "DesignIdentifier": "ftp.session.mode.codes",
+  "Name": {"en": "FTP Session Mode Code Set"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "A": {"en": "Active"},
+    "P": {"en": "Passive"}
+  }}

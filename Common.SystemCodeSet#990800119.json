@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800119,
+  "DesignIdentifier": "ProgramVisibilityType",
+  "Name": {"en": "Program Visibility Type"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "A": {"en": "Available to all programs."},
+    "E": {"en": "Shown to all but these programs:"},
+    "I": {"en": "Shown only for these programs:"}
+  }}

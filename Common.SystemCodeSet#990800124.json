@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800124,
+  "DesignIdentifier": "CategoryContentTypes",
+  "Name": {"en": "Category Content Type"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "G": {"en": "List of Goods Items"},
+    "S": {"en": "List of subcategories"}
+  }}

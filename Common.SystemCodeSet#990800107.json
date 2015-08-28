@@ -1,0 +1,25 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800107,
+  "DesignIdentifier": "SmsMessageFailureReasons",
+  "Name": {"en": "SMS Message Failure Reason Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "CC": {"en": "Client out of credit"},
+    "DE": {"en": "Delivery error"},
+    "IN": {"en": "Invalid message content"},
+    "IP": {"en": "Invalid to phone number"},
+    "IT": {"en": "Invalid SMS message template"},
+    "MT": {"en": "Missing SMS message template"},
+    "MX": {"en": "Message expired"},
+    "PX": {"en": "Platform exception"},
+    "TL": {"en": "Message too long"},
+    "UC": {"en": "User cancelled service"}
+  }}

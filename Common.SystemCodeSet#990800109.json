@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800109,
+  "DesignIdentifier": "SocialActionTypes",
+  "Name": {"en": "Social Action Type"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "B": {"en": "Broadcast"},
+    "T": {"en": "Targeted"}
+  }}

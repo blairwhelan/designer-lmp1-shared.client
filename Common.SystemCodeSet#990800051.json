@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800051,
+  "DesignIdentifier": "GoodsAdjustmentReason",
+  "Name": {"en": "Goods Adjustment Reason"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "Complaint": {"en": "Customer Complaint"},
+    "Other": {"en": "Other"},
+    "Reversal": {"en": "Reversal"},
+    "Thanks": {"en": "Customer Appreciation"}
+  }}

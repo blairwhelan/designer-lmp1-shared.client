@@ -1,0 +1,39 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemPrivileges",
+  "Id": 85124,
+  "DesignIdentifier": "Full.Access",
+  "Name": {"en": "Full Access"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "BusinessObjectPrivilegeList": {
+    "Id": 125000002112,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.BusinessObjectPrivilege"
+    },
+    "ValueObjectList": [{
+      "ItemKey": "125000002115",
+      "ValueObject": {
+        "AllowCreate": true,
+        "AllowRead": true,
+        "AllowRemove": true,
+        "AllowStore": true,
+        "Id": 125000002115,
+        "PrivilegeTypeCode": {
+          "DesignId": 0,
+          "TypeCode": "Common.ValueObject"
+        },
+        "__TypeCode__": "Common.BusinessObjectPrivilege",
+        "__Type__": "Vo"
+      }
+    }],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

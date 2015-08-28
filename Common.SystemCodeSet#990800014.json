@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800014,
+  "DesignIdentifier": "FulfilmentFailureStatus",
+  "Name": {"en": "User Goods Fulfilment Failure Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "0": {"en": "Failure Unresolved"},
+    "1": {"en": "Closed and Resent to Fulfilment Agent"},
+    "2": {"en": "Closed and Abandoned"}
+  }}

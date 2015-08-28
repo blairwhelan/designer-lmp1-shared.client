@@ -1,0 +1,23 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800055,
+  "DesignIdentifier": "ClaimStatus",
+  "Name": {"en": "Claim Status Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "A": {"en": "Approved"},
+    "D": {"en": "Denied"},
+    "E": {"en": "Expired"},
+    "M": {"en": "Matched"},
+    "P": {"en": "Pending"},
+    "R": {"en": "Returned"},
+    "V": {"en": "Verifying"},
+    "X": {"en": "Reassigned"}
+  }}

@@ -1,0 +1,23 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800108,
+  "DesignIdentifier": "ReferralChannels",
+  "Name": {"en": "Referral Channels"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "facebook": {"en": "Facebook"},
+    "google": {"en": "Gmail"},
+    "hotmail": {"en": "Hotmail"},
+    "linkedin": {"en": "Linked In"},
+    "program.email": {"en": "Program Email"},
+    "twitter": {"en": "Twitter"},
+    "verbal": {"en": "Verbal"},
+    "yahoo": {"en": "Yahoo Mail"}
+  }}

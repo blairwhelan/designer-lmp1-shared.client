@@ -1,0 +1,22 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800042,
+  "DesignIdentifier": "NumberConditionList",
+  "Name": {"en": "Number Condition List"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "!=": {"en": "Not Equals"},
+    "%": {"en": "Is Multiple Of"},
+    "<": {"en": "Less Than"},
+    "<=": {"en": "Less Than Or Equals"},
+    "=": {"en": "Equals"},
+    ">": {"en": "Greater Than"},
+    ">=": {"en": "Greater Than Or Equals"}
+  }}

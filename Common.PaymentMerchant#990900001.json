@@ -1,0 +1,13 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.PaymentMerchant",
+  "Id": 990900001,
+  "DesignIdentifier": "paypal",
+  "Name": {"en": "PayPal"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

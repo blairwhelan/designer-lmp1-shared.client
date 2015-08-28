@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800007,
+  "DesignIdentifier": "RoleScope",
+  "Name": {"en": "Role Scopes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "group": {"en": "Update Specific Group"},
+    "owngroup": {"en": "Update within own Group"},
+    "self": {"en": "Update Own Records"}
+  }}

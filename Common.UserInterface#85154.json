@@ -1,0 +1,223 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.UserInterface",
+  "Id": 85154,
+  "DesignIdentifier": "ControlCenter",
+  "Name": {"en": "ControlCenter"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "UserInterfaceFeatureList": {
+    "Id": 604000002155,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.UserInterfaceFeature"
+    },
+    "ValueObjectList": [
+      {
+        "ItemKey": "2100",
+        "ValueObject": {
+          "Id": 2100,
+          "Name": {"en": "Reporting"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2101",
+        "ValueObject": {
+          "Id": 2101,
+          "Name": {"en": "Adjustments"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2102",
+        "ValueObject": {
+          "Id": 2102,
+          "Name": {"en": "Table Maintenance"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2103",
+        "ValueObject": {
+          "Id": 2103,
+          "Name": {"en": "Fulfilment Center"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2104",
+        "ValueObject": {
+          "Id": 2104,
+          "Name": {"en": "Change User Status"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2105",
+        "ValueObject": {
+          "Id": 2105,
+          "Name": {"en": "Client Product Maintenance"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2106",
+        "ValueObject": {
+          "Id": 2106,
+          "Name": {"en": "Catalog Maintenance"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2107",
+        "ValueObject": {
+          "Id": 2107,
+          "Name": {"en": "Client Configuration"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2109",
+        "ValueObject": {
+          "Id": 2109,
+          "Name": {"en": "Execute Data Processing"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2116",
+        "ValueObject": {
+          "Id": 2116,
+          "Name": {"en": "Immediate Import Processing"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2110",
+        "ValueObject": {
+          "Id": 2110,
+          "Name": {"en": "Issue Management"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2111",
+        "ValueObject": {
+          "Id": 2111,
+          "Name": {"en": "RewardCenter"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2112",
+        "ValueObject": {
+          "Id": 2112,
+          "Name": {"en": "Client Product View"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2113",
+        "ValueObject": {
+          "Id": 2113,
+          "Name": {"en": "Change User Security Settings"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2114",
+        "ValueObject": {
+          "Id": 2114,
+          "Name": {"en": "Promotion Table View"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2115",
+        "ValueObject": {
+          "Id": 2115,
+          "Name": {"en": "Promotion Table Maintenance"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2117",
+        "ValueObject": {
+          "Id": 2117,
+          "Name": {"en": "Schedule Workflows"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2118",
+        "ValueObject": {
+          "Id": 2118,
+          "Name": {"en": "Poll Table Maintenance"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2119",
+        "ValueObject": {
+          "Id": 2119,
+          "Name": {"en": "Promotion Activation"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2120",
+        "ValueObject": {
+          "Id": 2120,
+          "Name": {"en": "Client Content Edit"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2121",
+        "ValueObject": {
+          "Id": 2121,
+          "Name": {"en": "Client Content Publish"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2122",
+        "ValueObject": {
+          "Id": 2122,
+          "Name": {"en": "Emulation of Program Members"},
+          "__TypeCode__": "Common.UserInterfaceFeature",
+          "__Type__": "Vo"
+        }
+      }
+    ],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

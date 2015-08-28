@@ -1,0 +1,21 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800054,
+  "DesignIdentifier": "RetirementReason",
+  "Name": {"en": "Retirement Reason Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "I": {"en": "Inactivity"},
+    "N": {"en": "No longer a customer"},
+    "O": {"en": "Other"},
+    "TFR": {"en": "Transfered to duplicate referee"},
+    "W": {"en": "Withdrew"},
+    "X": {"en": "Account Issues"}
+  }}

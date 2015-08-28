@@ -1,0 +1,22 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800110,
+  "DesignIdentifier": "OAuthServiceNames",
+  "Name": {"en": "OAuth Service Names"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "bitly": {"en": "Bit.ly"},
+    "facebook": {"en": "Facebook"},
+    "google": {"en": "Gmail"},
+    "hotmail": {"en": "Hotmail"},
+    "linkedin": {"en": "Linked In"},
+    "twitter": {"en": "Twitter"},
+    "yahoo": {"en": "Yahoo Mail"}
+  }}

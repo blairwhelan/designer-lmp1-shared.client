@@ -1,0 +1,25 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800011,
+  "DesignIdentifier": "Condition",
+  "Name": {"en": "Rules Condition"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "!=": {"en": "Not Equals"},
+    "<": {"en": "Less Than"},
+    "<=": {"en": "Less Than Or Equals"},
+    "=": {"en": "Equals"},
+    ">": {"en": "Greater Than"},
+    ">=": {"en": "Greater Than Or Equals"},
+    "contains": {"en": "Contains"},
+    "does not contain": {"en": "Does Not Contain"},
+    "does not exist": {"en": "Does Not Exist"},
+    "exists": {"en": "Exists"}
+  }}

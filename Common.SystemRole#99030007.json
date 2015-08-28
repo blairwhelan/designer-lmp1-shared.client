@@ -1,0 +1,311 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemRole",
+  "Id": 99030007,
+  "DesignIdentifier": "Employee.Role",
+  "Name": {"en": "Corporate Employees Role"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DefaultSystemPrivilegesId": 85124,
+  "PersonalSystemPrivilegesId": 0,
+  "UserInterfaceIdList": [],
+  "PasswordSettingsId": 0,
+  "UserGroupSystemPrivilegesList": {
+    "Id": 97868,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.UserGroupSystemPrivileges"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "UserInterfacePrivilegeList": {
+    "Id": 97869,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.UserInterfacePrivilege"
+    },
+    "ValueObjectList": [
+      {
+        "ItemKey": "5000000030",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000030,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2100,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000034",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000034,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2101,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000038",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000038,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2102,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000042",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000042,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2103,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000046",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000046,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2104,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000050",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000050,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2105,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000054",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000054,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2106,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000055",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000055,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2107,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "5000000057",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 5000000057,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2110,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000013",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000013,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2109,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000014",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000014,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2116,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000015",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000015,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2112,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000016",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000016,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2113,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000017",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000017,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2114,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000018",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000018,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2115,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000020",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000020,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2117,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000021",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000021,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2118,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000022",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000022,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2119,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000023",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000023,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2120,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "55000000024",
+        "ValueObject": {
+          "AllowAccess": true,
+          "Id": 55000000024,
+          "UserInterfaceFeatureId": {
+            "ChildId": 2121,
+            "ParentId": 85154
+          },
+          "__TypeCode__": "Common.UserInterfacePrivilege",
+          "__Type__": "Vo"
+        }
+      }
+    ],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "ControlCenterPrivilegesList": {
+    "Id": 388000001029,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ControlCenterPrivilege"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

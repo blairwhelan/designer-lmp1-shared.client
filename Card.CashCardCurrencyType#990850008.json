@@ -1,0 +1,50 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Card.CashCardCurrencyType",
+  "Id": 990850008,
+  "DesignIdentifier": "std.cash.card.currency",
+  "Name": {"en": "Standard Cash Card Currency Type"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "CreateWebFormId": 0,
+  "EditWebFormId": 0,
+  "ValidationRuleList": {
+    "Id": 6100000000077,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ValidationRule"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "LimitedInventory": false,
+  "NamedObjectList": {
+    "Id": 4285000001336,
+    "NamedObjectList": true,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.NamedObject"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "CalculatedFieldList": {
+    "Id": 4285000001337,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CalculatedField"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "RealTimeFulfillmentDefinitionId": 0,
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

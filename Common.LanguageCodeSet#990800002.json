@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.LanguageCodeSet",
+  "Id": 990800002,
+  "DesignIdentifier": "Languages",
+  "Name": {"en": "Languages"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "en": {"en": "English"},
+    "es": {"en": "Spanish"},
+    "fr": {"en": "French"}
+  }}

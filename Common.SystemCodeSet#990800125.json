@@ -1,0 +1,24 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800125,
+  "DesignIdentifier": "CategoryTypes",
+  "Name": {"en": "Category Types"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "AC": {"en": "Activities"},
+    "AO": {"en": "All Other"},
+    "CB": {"en": "Cashback / Account Credits"},
+    "ET": {"en": "Event tickets"},
+    "GC": {"en": "Gift Cards"},
+    "ME": {"en": "Merchandise Electronics"},
+    "MO": {"en": "Merchandise Other"},
+    "TA": {"en": "Travel Air"},
+    "TR": {"en": "Travel Other - cruise, car, hotel, packages - any non-flight travel type\n                    "}
+  }}

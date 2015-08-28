@@ -1,0 +1,28 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.Catalog",
+  "Id": 995000000183,
+  "DesignIdentifier": "Catalog1",
+  "Name": {"en": "Catalog1"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "ExchangeFromId": 565000000022,
+  "SubCategoryColumns": 3,
+  "ItemColumns": 3,
+  "ItemsPerPage": 3,
+  "CatalogCategoryList": {
+    "Id": 1000000003,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CatalogCategory"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

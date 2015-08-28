@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800005,
+  "DesignIdentifier": "NamePrefix",
+  "Name": {"en": "User Name Prefix"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "Dr.": {"en": "Dr."},
+    "Mr.": {"en": "Mr."},
+    "Mrs.": {"en": "Mrs."},
+    "Ms.": {"en": "Ms."}
+  }}

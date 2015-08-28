@@ -1,0 +1,14 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800069,
+  "DesignIdentifier": "CurrencyTransferMessages",
+  "Name": {"en": "Currency Transfer Messages"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {"ClmTfr": {"en": "Claim # %MergeValue% - Approved"}}}

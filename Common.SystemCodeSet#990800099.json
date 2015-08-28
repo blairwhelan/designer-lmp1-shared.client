@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800099,
+  "DesignIdentifier": "AnniversaryTypeCodes",
+  "Name": {"en": "Anniversary Types"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "M": {"en": "Monthly Anniversary"},
+    "Y": {"en": "Yearly Anniversary"}
+  }}

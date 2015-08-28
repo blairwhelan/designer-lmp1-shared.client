@@ -1,0 +1,461 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.CatalogProgramType",
+  "Id": 5000000049,
+  "DesignIdentifier": "molinaPrograms",
+  "Name": {"en": "Molina Programs"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "molinaPrograms",
+  "CreateWebFormId": 0,
+  "EditWebFormId": 0,
+  "ValidationRuleList": {
+    "Id": 5000000050,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ValidationRule"
+    },
+    "ValueObjectList": [{
+      "ItemKey": "5000000076",
+      "ValueObject": {
+        "CalculatedFieldList": {
+          "Id": 5000000079,
+          "NamedObjectList": false,
+          "TypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.CalculatedField"
+          },
+          "ValueObjectList": [],
+          "__TypeCode__": "Common.ValueObjectList",
+          "__Type__": "Vo"
+        },
+        "Id": 5000000076,
+        "Name": {"en": "Store Required"},
+        "NamedObjectList": {
+          "Id": 5000000078,
+          "NamedObjectList": true,
+          "TypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.NamedObject"
+          },
+          "ValueObjectList": [{
+            "ItemKey": "5000000083",
+            "ValueObject": {
+              "Id": 5000000083,
+              "Name": "Molina Programs",
+              "ShortName": "Molina Programs",
+              "StartingDesignObjectId": 5000000049,
+              "StartingTypeCode": "Common.CatalogProgram",
+              "__TypeCode__": "Common.StartingNamedObject",
+              "__Type__": "Vo"
+            }
+          }],
+          "__TypeCode__": "Common.ValueObjectList",
+          "__Type__": "Vo"
+        },
+        "NodeList": {
+          "Id": 5000000077,
+          "NamedObjectList": false,
+          "TypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.Node"
+          },
+          "ValueObjectList": [
+            {
+              "ItemKey": "5000000086",
+              "ValueObject": {
+                "Condition": {
+                  "ConditionLineList": {
+                    "Id": 5000000089,
+                    "NamedObjectList": false,
+                    "TypeCode": {
+                      "DesignId": 0,
+                      "TypeCode": "Common.ConditionLine"
+                    },
+                    "ValueObjectList": [{
+                      "ItemKey": "5000000090",
+                      "ValueObject": {
+                        "AndOr": "&",
+                        "ClosingBrackets": "",
+                        "Condition": "=",
+                        "ConditionString": "=",
+                        "FirstAttributeReference": {
+                          "AllowsFixed": false,
+                          "AttributeCode": "GeneratePurl",
+                          "DataType": "Boolean",
+                          "Fixed": false,
+                          "Name": "Generate Purl",
+                          "NamedObject": 5000000083,
+                          "Type": "RuleArgument"
+                        },
+                        "FirstAttributeString": "Generate Purl",
+                        "Id": 5000000090,
+                        "OpeningBrackets": "",
+                        "SecondAttributeReference": {
+                          "AllowsFixed": true,
+                          "AttributeCode": "null",
+                          "DataType": "Boolean",
+                          "Fixed": true,
+                          "FixedValue": true,
+                          "Name": "Yes",
+                          "NamedObject": 0,
+                          "Type": "RuleArgument"
+                        },
+                        "SecondAttributeString": "Yes",
+                        "__TypeCode__": "Common.BooleanConditionLine",
+                        "__Type__": "Vo"
+                      }
+                    }],
+                    "__TypeCode__": "Common.ValueObjectList",
+                    "__Type__": "Vo"
+                  },
+                  "Id": 5000000088,
+                  "__TypeCode__": "Common.Condition",
+                  "__Type__": "Vo"
+                },
+                "Id": 5000000086,
+                "Name": "Is Generate Purl True?",
+                "NodeLinkList": {
+                  "Id": 5000000087,
+                  "NamedObjectList": false,
+                  "TypeCode": {
+                    "DesignId": 0,
+                    "TypeCode": "Common.NodeLink"
+                  },
+                  "ValueObjectList": [
+                    {
+                      "ItemKey": "5000000091",
+                      "ValueObject": {
+                        "Description": "True",
+                        "Id": 5000000091,
+                        "LinkNodeId": 5000000093,
+                        "LinkValue": "T",
+                        "__TypeCode__": "Common.NodeLink",
+                        "__Type__": "Vo"
+                      }
+                    },
+                    {
+                      "ItemKey": "5000000092",
+                      "ValueObject": {
+                        "Description": "False",
+                        "Id": 5000000092,
+                        "LinkNodeId": 0,
+                        "LinkValue": "F",
+                        "__TypeCode__": "Common.NodeLink",
+                        "__Type__": "Vo"
+                      }
+                    }
+                  ],
+                  "__TypeCode__": "Common.ValueObjectList",
+                  "__Type__": "Vo"
+                },
+                "__TypeCode__": "Common.DecisionNode",
+                "__Type__": "Vo"
+              }
+            },
+            {
+              "ItemKey": "5000000093",
+              "ValueObject": {
+                "Condition": {
+                  "ConditionLineList": {
+                    "Id": 5000000096,
+                    "NamedObjectList": false,
+                    "TypeCode": {
+                      "DesignId": 0,
+                      "TypeCode": "Common.ConditionLine"
+                    },
+                    "ValueObjectList": [{
+                      "ItemKey": "5000000097",
+                      "ValueObject": {
+                        "AndOr": "&",
+                        "ClosingBrackets": "",
+                        "Condition": "=",
+                        "ConditionString": "=",
+                        "FirstAttributeReference": {
+                          "AllowsFixed": false,
+                          "AttributeCode": "RedemptionStoreId",
+                          "DataType": "Number",
+                          "Fixed": false,
+                          "Name": "Redemption Store",
+                          "NamedObject": 5000000083,
+                          "Type": "RuleArgument"
+                        },
+                        "FirstAttributeString": "Redemption Store",
+                        "Id": 5000000097,
+                        "OpeningBrackets": "",
+                        "SecondAttributeReference": {
+                          "AllowsFixed": true,
+                          "AttributeCode": "null",
+                          "DataType": "Long",
+                          "Fixed": true,
+                          "FixedValue": 0,
+                          "Name": "0",
+                          "NamedObject": 0,
+                          "Type": "RuleArgument"
+                        },
+                        "SecondAttributeString": "0",
+                        "__TypeCode__": "Common.NumberConditionLine",
+                        "__Type__": "Vo"
+                      }
+                    }],
+                    "__TypeCode__": "Common.ValueObjectList",
+                    "__Type__": "Vo"
+                  },
+                  "Id": 5000000095,
+                  "__TypeCode__": "Common.Condition",
+                  "__Type__": "Vo"
+                },
+                "Id": 5000000093,
+                "Name": "Is Redemption Store Not Provided?",
+                "NodeLinkList": {
+                  "Id": 5000000094,
+                  "NamedObjectList": false,
+                  "TypeCode": {
+                    "DesignId": 0,
+                    "TypeCode": "Common.NodeLink"
+                  },
+                  "ValueObjectList": [
+                    {
+                      "ItemKey": "5000000098",
+                      "ValueObject": {
+                        "Description": "True",
+                        "Id": 5000000098,
+                        "LinkNodeId": 5000000100,
+                        "LinkValue": "T",
+                        "__TypeCode__": "Common.NodeLink",
+                        "__Type__": "Vo"
+                      }
+                    },
+                    {
+                      "ItemKey": "5000000099",
+                      "ValueObject": {
+                        "Description": "False",
+                        "Id": 5000000099,
+                        "LinkNodeId": 0,
+                        "LinkValue": "F",
+                        "__TypeCode__": "Common.NodeLink",
+                        "__Type__": "Vo"
+                      }
+                    }
+                  ],
+                  "__TypeCode__": "Common.ValueObjectList",
+                  "__Type__": "Vo"
+                },
+                "__TypeCode__": "Common.DecisionNode",
+                "__Type__": "Vo"
+              }
+            },
+            {
+              "ItemKey": "5000000100",
+              "ValueObject": {
+                "AttributeCode": {
+                  "AllowsFixed": false,
+                  "AttributeCode": "RedemptionStoreId",
+                  "DataType": "null",
+                  "DesignId": 5000000049,
+                  "Fixed": false,
+                  "Type": "RuleArgument",
+                  "TypeCode": "Common.CatalogProgram"
+                },
+                "Id": 5000000100,
+                "MessageKey": "error.validation.RequiredField",
+                "MessageMergeValueReference": {
+                  "AllowsFixed": true,
+                  "AttributeCode": "null",
+                  "DataType": "String",
+                  "Fixed": true,
+                  "FixedValue": "",
+                  "Name": "",
+                  "NamedObject": 0,
+                  "Type": "RuleArgument"
+                },
+                "Name": "Store Required Validation Exception",
+                "NodeLinkList": {
+                  "Id": 5000000101,
+                  "NamedObjectList": false,
+                  "TypeCode": {
+                    "DesignId": 0,
+                    "TypeCode": "Common.NodeLink"
+                  },
+                  "ValueObjectList": [],
+                  "__TypeCode__": "Common.ValueObjectList",
+                  "__Type__": "Vo"
+                },
+                "__TypeCode__": "Common.ValidationExceptionActionNode",
+                "__Type__": "Vo"
+              }
+            }
+          ],
+          "__TypeCode__": "Common.ValueObjectList",
+          "__Type__": "Vo"
+        },
+        "RootNodeLink": {
+          "Description": "",
+          "Id": 5000000080,
+          "LinkNodeId": 5000000086,
+          "LinkValue": "RootNode",
+          "__TypeCode__": "Common.NodeLink",
+          "__Type__": "Vo"
+        },
+        "__TypeCode__": "Common.ValidationRule",
+        "__Type__": "Vo"
+      }
+    }],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "NamedObjectList": {
+    "Id": 5000000051,
+    "NamedObjectList": true,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.NamedObject"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "CalculatedFieldList": {
+    "Id": 5000000052,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CalculatedField"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [
+    {
+      "Active": true,
+      "AllowsRecordNotFound": false,
+      "AttributeType": "Id",
+      "CalculatedFieldId": 0,
+      "Code": "StateId",
+      "Custom": true,
+      "DataFormatCode": "",
+      "DefaultValue": 0,
+      "Deprecated": false,
+      "EditAsTextBox": false,
+      "EditOnAdd": true,
+      "EditOnUpdate": true,
+      "Hidden": false,
+      "IdType": {
+        "DesignId": 5000000059,
+        "TypeCode": "CustomEntity.CustomSharedRecord"
+      },
+      "IndexInDatabase": false,
+      "Name": {"en": "State"},
+      "Required": false,
+      "ShowInList": true,
+      "Weight": 1
+    },
+    {
+      "Active": true,
+      "AttributeType": "Boolean",
+      "CalculatedFieldId": 0,
+      "Code": "GeneratePurl",
+      "Custom": true,
+      "DataFormatCode": "",
+      "Deprecated": false,
+      "EditOnAdd": true,
+      "EditOnUpdate": true,
+      "Hidden": false,
+      "Name": {"en": "Generate Purl"},
+      "Required": false,
+      "ShowInList": true,
+      "Weight": 1
+    },
+    {
+      "Active": true,
+      "AllowsRecordNotFound": false,
+      "AttributeType": "Id",
+      "CalculatedFieldId": 0,
+      "Code": "RedemptionStoreId",
+      "Custom": true,
+      "DataFormatCode": "",
+      "DefaultValue": 0,
+      "Deprecated": false,
+      "EditAsTextBox": false,
+      "EditOnAdd": true,
+      "EditOnUpdate": true,
+      "Hidden": false,
+      "IdType": {
+        "DesignId": 0,
+        "TypeCode": "Common.AbstractCatalogCategory"
+      },
+      "IndexInDatabase": false,
+      "Name": {"en": "Redemption Store"},
+      "Required": false,
+      "ShowInList": true,
+      "Weight": 1
+    },
+    {
+      "Active": true,
+      "AttributeType": "Boolean",
+      "CalculatedFieldId": 0,
+      "Code": "ShowAllCatalogItems",
+      "Custom": true,
+      "DataFormatCode": "",
+      "Deprecated": false,
+      "EditOnAdd": true,
+      "EditOnUpdate": true,
+      "Hidden": false,
+      "Name": {"en": "Show All Catalog Items"},
+      "Required": false,
+      "ShowInList": true,
+      "Weight": 1
+    },
+    {
+      "Active": true,
+      "AllowsMultipleLines": false,
+      "AttributeType": "String",
+      "CalculatedFieldId": 0,
+      "CaseSetting": "",
+      "CharacterData": false,
+      "Code": "URL",
+      "Custom": true,
+      "DataFormatCode": "",
+      "DefaultValue": "",
+      "Deprecated": false,
+      "EditOnAdd": true,
+      "EditOnUpdate": true,
+      "Hidden": false,
+      "MinimumWidth": 0,
+      "Name": {"en": "URL"},
+      "Required": false,
+      "ShowInList": true,
+      "TrimBlanks": true,
+      "Unique": false,
+      "Weight": 1,
+      "Width": 200
+    }
+  ],
+  "ModifiedStandardAttributeList": [{
+    "Active": true,
+    "AllowsMultipleLines": false,
+    "AttributeType": "String",
+    "CalculatedFieldId": 0,
+    "CaseSetting": "",
+    "CharacterData": false,
+    "Code": "PrimaryIdentifier",
+    "Custom": false,
+    "DataFormatCode": "",
+    "DefaultValue": "",
+    "Deprecated": false,
+    "EditOnAdd": true,
+    "EditOnUpdate": true,
+    "Hidden": false,
+    "MinimumWidth": 0,
+    "Name": {"en": "Program Id"},
+    "Required": true,
+    "ShowInList": true,
+    "TrimBlanks": true,
+    "Unique": false,
+    "Weight": 1,
+    "Width": 200
+  }]}

@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800076,
+  "DesignIdentifier": "ClientAccountStatusCodes",
+  "Name": {"en": "Client Account Status Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "C": {"en": "Cancelled"},
+    "I": {"en": "Invalid"},
+    "U": {"en": "Unknown"},
+    "V": {"en": "Valid"}
+  }}

@@ -1,0 +1,39 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemPrivileges",
+  "Id": 88125,
+  "DesignIdentifier": "User.Record.Read",
+  "Name": {"en": "User Record Read"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "BusinessObjectPrivilegeList": {
+    "Id": 125000002228,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.BusinessObjectPrivilege"
+    },
+    "ValueObjectList": [{
+      "ItemKey": "125000002231",
+      "ValueObject": {
+        "AllowCreate": false,
+        "AllowRead": true,
+        "AllowRemove": false,
+        "AllowStore": false,
+        "Id": 125000002231,
+        "PrivilegeTypeCode": {
+          "DesignId": 0,
+          "TypeCode": "Common.UserValueObject"
+        },
+        "__TypeCode__": "Common.BusinessObjectPrivilege",
+        "__Type__": "Vo"
+      }
+    }],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

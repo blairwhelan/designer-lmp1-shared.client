@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800020,
+  "DesignIdentifier": "DateUnits",
+  "Name": {"en": "Date Unit Code Set"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "1": {"en": "Year"},
+    "2": {"en": "Month"},
+    "5": {"en": "Day"}
+  }}

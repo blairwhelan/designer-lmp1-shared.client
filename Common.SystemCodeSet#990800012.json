@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800012,
+  "DesignIdentifier": "UserClass",
+  "Name": {"en": "User Group Class"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "Common.Company": {"en": "Company"},
+    "Common.Household": {"en": "Household"},
+    "Common.OtherUser": {"en": "Other"},
+    "Common.Person": {"en": "Person"}
+  }}

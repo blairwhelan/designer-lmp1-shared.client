@@ -1,0 +1,14 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800057,
+  "DesignIdentifier": "ClaimDenialReason",
+  "Name": {"en": "Claim Denial Reason Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {"Old": {"en": "Purchase made too long ago."}}}

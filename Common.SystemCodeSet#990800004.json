@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800004,
+  "DesignIdentifier": "PleaseSelectText",
+  "Name": {"en": "Drop Down Please Select Text"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "NotRequired": {"en": "Select If Applicable"},
+    "Required": {"en": "Please Select"}
+  }}

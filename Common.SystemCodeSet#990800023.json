@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800023,
+  "DesignIdentifier": "ScheduleInclusonMethods",
+  "Name": {"en": "Sweepstake Schedule Incluson Methods"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "A": {"en": "All"},
+    "F": {"en": "Fixed"},
+    "L": {"en": "Last Draw"},
+    "R": {"en": "Relative"}
+  }}

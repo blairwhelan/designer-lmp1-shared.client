@@ -1,0 +1,20 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800008,
+  "DesignIdentifier": "UserRecordStatus",
+  "Name": {"en": "User Record Status"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "A": {"en": "Active"},
+    "I": {"en": "Inactive"},
+    "P": {"en": "Prospect"},
+    "R": {"en": "Retired"},
+    "S": {"en": "Suspended"}
+  }}

@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800037,
+  "DesignIdentifier": "WebHorizontalAlign",
+  "Name": {"en": "Web Horizontal Alignment"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "center": {"en": "Center"},
+    "left": {"en": "Left"},
+    "right": {"en": "Right"}
+  }}

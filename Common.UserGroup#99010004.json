@@ -1,0 +1,58 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.UserGroup",
+  "Id": 99010004,
+  "DesignIdentifier": "Corporate.Admin",
+  "Name": {"en": "Corporate Administrator User Group"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "CreateWebFormId": 0,
+  "EditWebFormId": 0,
+  "ValidationRuleList": {
+    "Id": 1000000025,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ValidationRule"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "Description": {},
+  "UserGroupClassTypeCode": "Common.Person",
+  "Numbering": "null",
+  "SystemRoleId": 99030006,
+  "MailingAddressType": 0,
+  "ShippingAddressType": 0,
+  "ShippingAddressSameAsMailing": false,
+  "IdentifierUsedAsUserName": false,
+  "RegisterWebFormId": 0,
+  "ViewWebFormId": 0,
+  "NamedObjectList": {
+    "Id": 1000000026,
+    "NamedObjectList": true,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.NamedObject"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "CalculatedFieldList": {
+    "Id": 1000000027,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CalculatedField"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

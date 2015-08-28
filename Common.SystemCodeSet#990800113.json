@@ -1,0 +1,23 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800113,
+  "DesignIdentifier": "LoginAuthority",
+  "Name": {"en": "Login Authority"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "client": {"en": "Client"},
+    "facebook": {"en": "Facebook"},
+    "google": {"en": "Google"},
+    "hotmail": {"en": "Window Live"},
+    "linkedin": {"en": "LinkedIn"},
+    "program": {"en": "Program"},
+    "twitter": {"en": "Twitter"},
+    "yahoo": {"en": "Yahoo"}
+  }}

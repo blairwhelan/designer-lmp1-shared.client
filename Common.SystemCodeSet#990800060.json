@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800060,
+  "DesignIdentifier": "FixedWidthExportAlignment",
+  "Name": {"en": "Fixed Width Export Column Alignment Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "L": {"en": "Left"},
+    "R": {"en": "Right"}
+  }}

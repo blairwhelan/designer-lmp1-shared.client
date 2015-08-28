@@ -1,0 +1,18 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800117,
+  "DesignIdentifier": "IdListConditionList",
+  "Name": {"en": "Id List Condition List"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "contains": {"en": "Contains"},
+    "does not contain": {"en": "Does Not Contain"},
+    "isempty": {"en": "Is Empty"}
+  }}

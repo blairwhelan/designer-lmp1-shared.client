@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800064,
+  "DesignIdentifier": "ftp.transfer.mode.codes",
+  "Name": {"en": "FTP Transfer Mode Code Set"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "A": {"en": "Ascii"},
+    "B": {"en": "Binary"}
+  }}

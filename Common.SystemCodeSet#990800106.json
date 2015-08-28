@@ -1,0 +1,19 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800106,
+  "DesignIdentifier": "SmsMessageStatusCodes",
+  "Name": {"en": "SMS Message Statuses"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "0": {"en": "Created"},
+    "1": {"en": "Sent"},
+    "2": {"en": "Received"},
+    "3": {"en": "Failure"}
+  }}

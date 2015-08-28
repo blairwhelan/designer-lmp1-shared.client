@@ -1,0 +1,24 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.UserInterface",
+  "Id": 992400001,
+  "DesignIdentifier": "Designer",
+  "Name": {"en": "Designer"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "UserInterfaceFeatureList": {
+    "Id": 1000000011,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.UserInterfaceFeature"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

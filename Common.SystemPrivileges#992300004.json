@@ -1,0 +1,313 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemPrivileges",
+  "Id": 992300004,
+  "DesignIdentifier": "Non.User.Update.Rights",
+  "Name": {"en": "Update Rights on All Non-User Objects"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "BusinessObjectPrivilegeList": {
+    "Id": 1,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.BusinessObjectPrivilege"
+    },
+    "ValueObjectList": [
+      {
+        "ItemKey": "1",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 1,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.DesignValueObject"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "2",
+        "ValueObject": {
+          "AllowCreate": false,
+          "AllowRead": true,
+          "AllowRemove": false,
+          "AllowStore": false,
+          "Id": 2,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.EmbeddedDesignValueObject"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "3",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 3,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.Version"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "4",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 4,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.Build"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "6",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 6,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "CustomEntity.CustomEntity"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "7",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 7,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Purchase.ClientProduct"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "8",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 8,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.ParametricPromotion"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "9",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 9,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.CouponIssuer"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "10",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 10,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.Coupon"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "11",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 11,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.Goods"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "12",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 12,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.AbstractCatalogCategory"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "13",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 13,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.CategoryGoodsItem"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "15",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 15,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.CodeTable"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "16",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 16,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.DataProcessOutcome"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "17",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 17,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.ProcessRecord"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "18",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 18,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Workflow.ScheduledWorkflowProcess"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "19",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 19,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Workflow.WorkflowProcessRecord"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "20",
+        "ValueObject": {
+          "AllowCreate": true,
+          "AllowRead": true,
+          "AllowRemove": true,
+          "AllowStore": true,
+          "Id": 10,
+          "PrivilegeTypeCode": {
+            "DesignId": 0,
+            "TypeCode": "Common.SharedRecord"
+          },
+          "__TypeCode__": "Common.BusinessObjectPrivilege",
+          "__Type__": "Vo"
+        }
+      }
+    ],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

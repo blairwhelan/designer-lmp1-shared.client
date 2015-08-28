@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800061,
+  "DesignIdentifier": "issue.inquiry.codes",
+  "Name": {"en": "Inquiry Issue Source Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "E": {"en": "Member Email"},
+    "M": {"en": "Member Web Site"}
+  }}

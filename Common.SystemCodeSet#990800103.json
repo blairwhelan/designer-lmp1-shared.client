@@ -1,0 +1,20 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800103,
+  "DesignIdentifier": "ScheduleRecurrenceUnits",
+  "Name": {"en": "Schedule Recurrence Units"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "D": {"en": "Days"},
+    "H": {"en": "Hours"},
+    "M": {"en": "Months"},
+    "W": {"en": "Weeks"},
+    "Y": {"en": "Years"}
+  }}

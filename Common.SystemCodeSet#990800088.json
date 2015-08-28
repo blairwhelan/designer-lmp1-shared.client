@@ -1,0 +1,20 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800088,
+  "DesignIdentifier": "RewardStatus",
+  "Name": {"en": "Reward Status Codes"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "C": {"en": "Cancelled"},
+    "D": {"en": "Denied"},
+    "E": {"en": "Earned"},
+    "P": {"en": "Pending"},
+    "R": {"en": "Reversed"}
+  }}

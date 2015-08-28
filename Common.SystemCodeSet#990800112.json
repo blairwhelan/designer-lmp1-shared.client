@@ -1,0 +1,24 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800112,
+  "DesignIdentifier": "SocialActions",
+  "Name": {"en": "Social Actions"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "CheckIn": {"en": "Check In"},
+    "Email": {"en": "Email"},
+    "Invite": {"en": "Invitation"},
+    "Like": {"en": "Like / Recommendation"},
+    "Message": {"en": "Private Message"},
+    "Post": {"en": "Message Post"},
+    "Retweet": {"en": "Retweet"},
+    "Talking": {"en": "Talking"},
+    "Tweet": {"en": "Tweet"}
+  }}

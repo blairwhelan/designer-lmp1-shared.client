@@ -1,0 +1,14 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800085,
+  "DesignIdentifier": "ExpiryMessages",
+  "Name": {"en": "Expiry Messages"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {"EXP": {"en": "Sample Expiry Message"}}}

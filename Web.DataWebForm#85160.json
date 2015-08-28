@@ -1,0 +1,1416 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Web.DataWebForm",
+  "Id": 85160,
+  "DesignIdentifier": "StandardUserCreateForm",
+  "Name": {"en": "Standard User Create Form"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "CreateWebFormId": 0,
+  "EditWebFormId": 0,
+  "ValidationRuleList": {
+    "Id": 15000000022,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.ValidationRule"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "FormProcessingRule": {
+    "CalculatedFieldList": {
+      "Id": 15000000025,
+      "NamedObjectList": false,
+      "TypeCode": {
+        "DesignId": 0,
+        "TypeCode": "Common.CalculatedField"
+      },
+      "ValueObjectList": [],
+      "__TypeCode__": "Common.ValueObjectList",
+      "__Type__": "Vo"
+    },
+    "Id": 15000000023,
+    "NamedObjectList": {
+      "Id": 15000000024,
+      "NamedObjectList": true,
+      "TypeCode": {
+        "DesignId": 0,
+        "TypeCode": "Common.NamedObject"
+      },
+      "ValueObjectList": [
+        {
+          "ItemKey": "999444",
+          "ValueObject": {
+            "Id": 999444,
+            "Name": "Calculated Fields",
+            "RelationshipList": [{
+              "Id": 15000000043,
+              "StartingTypeCode": {
+                "DesignId": 85160,
+                "TypeCode": "Common.FormRecord"
+              },
+              "__TypeCode__": "Common.CalculatedFieldRelationship",
+              "__Type__": "Vo"
+            }],
+            "ShortName": "Calculated Fields",
+            "StartingDesignObjectId": 85160,
+            "StartingTypeCode": "Common.FormRecord",
+            "__TypeCode__": "Common.RelationshipNamedObject",
+            "__Type__": "Vo"
+          }
+        },
+        {
+          "ItemKey": "15000000232",
+          "ValueObject": {
+            "Id": 15000000232,
+            "Name": "Form Record (Standard User Create Form)",
+            "ShortName": "Form Record (Standard User Create Form)",
+            "StartingDesignObjectId": 85160,
+            "StartingTypeCode": "Common.FormRecord",
+            "__TypeCode__": "Common.StartingNamedObject",
+            "__Type__": "Vo"
+          }
+        }
+      ],
+      "__TypeCode__": "Common.ValueObjectList",
+      "__Type__": "Vo"
+    },
+    "NodeList": {
+      "Id": 15000000026,
+      "NamedObjectList": false,
+      "TypeCode": {
+        "DesignId": 0,
+        "TypeCode": "Common.Node"
+      },
+      "ValueObjectList": [
+        {
+          "ItemKey": "8000000131",
+          "ValueObject": {
+            "Id": 8000000131,
+            "MessageKey": "",
+            "MessageMergeValueReference": {
+              "AllowsFixed": true,
+              "AttributeCode": "null",
+              "DataType": "String",
+              "Fixed": true,
+              "FixedValue": "",
+              "Name": "",
+              "NamedObject": 0,
+              "Type": "RuleArgument"
+            },
+            "Name": "Processing Exception",
+            "NodeLinkList": {
+              "Id": 8000000132,
+              "NamedObjectList": false,
+              "TypeCode": {
+                "DesignId": 0,
+                "TypeCode": "Common.NodeLink"
+              },
+              "ValueObjectList": [],
+              "__TypeCode__": "Common.ValueObjectList",
+              "__Type__": "Vo"
+            },
+            "ReturnsCustomMessageKey": false,
+            "__TypeCode__": "Common.ProcessingExceptionActionNode",
+            "__Type__": "Vo"
+          }
+        },
+        {
+          "ItemKey": "8000000134",
+          "ValueObject": {
+            "Id": 8000000134,
+            "MessageKey": "",
+            "MessageMergeValueReference": {
+              "AllowsFixed": true,
+              "AttributeCode": "null",
+              "DataType": "String",
+              "Fixed": true,
+              "FixedValue": "",
+              "Name": "",
+              "NamedObject": 0,
+              "Type": "RuleArgument"
+            },
+            "Name": "Processing Exception",
+            "NodeLinkList": {
+              "Id": 8000000135,
+              "NamedObjectList": false,
+              "TypeCode": {
+                "DesignId": 0,
+                "TypeCode": "Common.NodeLink"
+              },
+              "ValueObjectList": [],
+              "__TypeCode__": "Common.ValueObjectList",
+              "__Type__": "Vo"
+            },
+            "ReturnsCustomMessageKey": false,
+            "__TypeCode__": "Common.ProcessingExceptionActionNode",
+            "__Type__": "Vo"
+          }
+        },
+        {
+          "ItemKey": "8000000097",
+          "ValueObject": {
+            "AccountSetAttributeList": {
+              "Id": 24607000000483,
+              "NamedObjectList": false,
+              "TypeCode": {
+                "DesignId": 0,
+                "TypeCode": "Common.SetAttribute"
+              },
+              "ValueObjectList": [
+                {
+                  "ItemKey": "62000000085",
+                  "ValueObject": {
+                    "Id": 62000000085,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "UserName",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.UserSystemAccount"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000147#UserName",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "System Account - User Name",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "62000000088",
+                  "ValueObject": {
+                    "Id": 62000000088,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "Password",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.UserSystemAccount"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000147#Password",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "System Account - Password",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "62000000091",
+                  "ValueObject": {
+                    "Id": 62000000091,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "ChallengeQuestion",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.UserSystemAccount"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000147#ChallengeQuestion",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "System Account - Challenge Question",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "62000000094",
+                  "ValueObject": {
+                    "Id": 62000000094,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "ChallengeAnswer",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.UserSystemAccount"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000147#ChallengeAnswer",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "System Account - Challenge Answer",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                }
+              ],
+              "__TypeCode__": "Common.ValueObjectList",
+              "__Type__": "Vo"
+            },
+            "CalculatedFieldAttributeCode": "",
+            "Id": 8000000097,
+            "IncludeUnlistedAttributes": false,
+            "Name": "Create User And System Account",
+            "NodeLinkList": {
+              "Id": 8000000098,
+              "NamedObjectList": false,
+              "TypeCode": {
+                "DesignId": 0,
+                "TypeCode": "Common.NodeLink"
+              },
+              "ValueObjectList": [
+                {
+                  "ItemKey": "8000000129",
+                  "ValueObject": {
+                    "Description": "Action Completed",
+                    "Id": 8000000129,
+                    "LinkNodeId": 0,
+                    "LinkValue": "Success",
+                    "__TypeCode__": "Common.NodeLink",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000130",
+                  "ValueObject": {
+                    "Description": "User Already Exists",
+                    "Id": 8000000130,
+                    "LinkNodeId": 8000000131,
+                    "LinkValue": "UserAlreadyExists",
+                    "__TypeCode__": "Common.NodeLink",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000133",
+                  "ValueObject": {
+                    "Description": "Primary Identifier Already Exists",
+                    "Id": 8000000133,
+                    "LinkNodeId": 8000000134,
+                    "LinkValue": "PrimaryIdentifierAlreadyExists",
+                    "__TypeCode__": "Common.NodeLink",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "22081000001074",
+                  "ValueObject": {
+                    "Description": "User Name Already Exists",
+                    "Id": 22081000001074,
+                    "LinkNodeId": 22081000001076,
+                    "LinkValue": "UserNameAlreadyExists",
+                    "__TypeCode__": "Common.NodeLink",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "62000000097",
+                  "ValueObject": {
+                    "Description": "Create Information Not Found",
+                    "Id": 62000000097,
+                    "LinkNodeId": 62000000100,
+                    "LinkValue": "CreateInformationNotFound",
+                    "__TypeCode__": "Common.NodeLink",
+                    "__Type__": "Vo"
+                  }
+                }
+              ],
+              "__TypeCode__": "Common.ValueObjectList",
+              "__Type__": "Vo"
+            },
+            "RecordType": {
+              "DesignId": 0,
+              "TypeCode": "Common.User"
+            },
+            "SetAttributeList": {
+              "Id": 8000000099,
+              "NamedObjectList": false,
+              "TypeCode": {
+                "DesignId": 0,
+                "TypeCode": "Common.SetAttribute"
+              },
+              "ValueObjectList": [
+                {
+                  "ItemKey": "8000000108",
+                  "ValueObject": {
+                    "Id": 8000000108,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "PrimaryIdentifier",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000094#PrimaryIdentifier",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "Primary Identifier",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000109",
+                  "ValueObject": {
+                    "Id": 8000000109,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "FirstName",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000094#FirstName",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "First Name",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000110",
+                  "ValueObject": {
+                    "Id": 8000000110,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "LastName",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000094#LastName",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "Last Name",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000111",
+                  "ValueObject": {
+                    "Id": 8000000111,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "EmailAddress",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000094#EmailAddress",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "Email Address",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000112",
+                  "ValueObject": {
+                    "Id": 8000000112,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "TelephoneNumber",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "15000000094#TelephoneNumber",
+                      "DataType": "String",
+                      "Fixed": false,
+                      "Name": "Telephone Number",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000119",
+                  "ValueObject": {
+                    "Id": 8000000119,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "RegistrationCompleted",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "",
+                      "DataType": "Boolean",
+                      "Fixed": true,
+                      "FixedValue": false,
+                      "Name": "false",
+                      "NamedObject": 0,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000123",
+                  "ValueObject": {
+                    "Id": 8000000123,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "LanguageCode",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "",
+                      "DataType": "String",
+                      "Fixed": true,
+                      "FixedValue": "en",
+                      "Name": "en",
+                      "NamedObject": 0,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000124",
+                  "ValueObject": {
+                    "Id": 8000000124,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "UserGroupId",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "UserGroupId",
+                      "DataType": "Number",
+                      "Fixed": false,
+                      "Name": "User Group",
+                      "NamedObject": 15000000232,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                },
+                {
+                  "ItemKey": "8000000125",
+                  "ValueObject": {
+                    "Id": 8000000125,
+                    "ToLanguageCode": "",
+                    "UpdateAttributeReference": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "Status",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "Common.User"
+                    },
+                    "UpdateFromReference": {
+                      "AllowsFixed": true,
+                      "AttributeCode": "",
+                      "DataType": "String",
+                      "Fixed": true,
+                      "FixedValue": "A",
+                      "Name": "A",
+                      "NamedObject": 0,
+                      "Type": "RuleArgument"
+                    },
+                    "__TypeCode__": "Common.SetAttribute",
+                    "__Type__": "Vo"
+                  }
+                }
+              ],
+              "__TypeCode__": "Common.ValueObjectList",
+              "__Type__": "Vo"
+            },
+            "UpdateFromReference": {
+              "AllowsFixed": false,
+              "DataType": "ValueObject",
+              "Fixed": false,
+              "Name": "",
+              "NamedObject": 0,
+              "Type": "RuleArgument",
+              "ValueObjectTypeCode": "Common.ValueObject"
+            },
+            "__TypeCode__": "Common.CreateUserAndAccountActionNode",
+            "__Type__": "Vo"
+          }
+        },
+        {
+          "ItemKey": "22081000001076",
+          "ValueObject": {
+            "Id": 22081000001076,
+            "MessageKey": "",
+            "MessageMergeValueReference": {
+              "AllowsFixed": true,
+              "AttributeCode": "null",
+              "DataType": "String",
+              "Fixed": true,
+              "FixedValue": "",
+              "Name": "",
+              "NamedObject": 0,
+              "Type": "RuleArgument"
+            },
+            "Name": "Processing Exception",
+            "NodeLinkList": {
+              "Id": 22081000001075,
+              "NamedObjectList": false,
+              "TypeCode": {
+                "DesignId": 0,
+                "TypeCode": "Common.NodeLink"
+              },
+              "ValueObjectList": [],
+              "__TypeCode__": "Common.ValueObjectList",
+              "__Type__": "Vo"
+            },
+            "ReturnsCustomMessageKey": false,
+            "__TypeCode__": "Common.ProcessingExceptionActionNode",
+            "__Type__": "Vo"
+          }
+        },
+        {
+          "ItemKey": "62000000100",
+          "ValueObject": {
+            "Id": 62000000100,
+            "MessageKey": "",
+            "MessageMergeValueReference": {
+              "AllowsFixed": true,
+              "AttributeCode": "null",
+              "DataType": "String",
+              "Fixed": true,
+              "FixedValue": "",
+              "Name": "",
+              "NamedObject": 0,
+              "Type": "RuleArgument"
+            },
+            "Name": "Processing Exception",
+            "NodeLinkList": {
+              "Id": 62000000098,
+              "NamedObjectList": false,
+              "TypeCode": {
+                "DesignId": 0,
+                "TypeCode": "Common.NodeLink"
+              },
+              "ValueObjectList": [],
+              "__TypeCode__": "Common.ValueObjectList",
+              "__Type__": "Vo"
+            },
+            "ReturnsCustomMessageKey": false,
+            "__TypeCode__": "Common.ProcessingExceptionActionNode",
+            "__Type__": "Vo"
+          }
+        }
+      ],
+      "__TypeCode__": "Common.ValueObjectList",
+      "__Type__": "Vo"
+    },
+    "RootNodeLink": {
+      "Description": "",
+      "Id": 15000000027,
+      "LinkNodeId": 8000000097,
+      "LinkValue": "RootNode",
+      "__TypeCode__": "Common.NodeLink",
+      "__Type__": "Vo"
+    },
+    "__TypeCode__": "Common.FormProcessingRule",
+    "__Type__": "Vo"
+  },
+  "PublicForm": false,
+  "Preloaded": false,
+  "WebParameterList": {
+    "Id": 15000000028,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Web.WebParameter"
+    },
+    "ValueObjectList": [{
+      "ItemKey": "15000000089",
+      "ValueObject": {
+        "Id": 15000000089,
+        "ParameterId": "UserGroupId",
+        "WebParameterAttribute": {
+          "Active": true,
+          "AllowsRecordNotFound": false,
+          "AttributeType": "Id",
+          "CalculatedFieldId": 0,
+          "Code": "UserGroupId",
+          "Custom": true,
+          "DataFormatCode": "",
+          "DefaultValue": 0,
+          "Deprecated": false,
+          "EditAsTextBox": false,
+          "EditOnAdd": true,
+          "EditOnUpdate": true,
+          "Hidden": false,
+          "IdType": {
+            "DesignId": 0,
+            "TypeCode": "Common.UserGroup"
+          },
+          "IndexInDatabase": false,
+          "Name": {"en": "User Group Id"},
+          "Required": false,
+          "ShowInList": true,
+          "Weight": 1
+        },
+        "__TypeCode__": "Web.WebParameter",
+        "__Type__": "Vo"
+      }
+    }],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "ColumnOneWidth": 50,
+  "JavaScriptCode": "",
+  "FormHeader": {
+    "HorizontalAlignment": "left",
+    "HtmlContent": {},
+    "Id": 15000000029,
+    "OtherTags": "",
+    "Span": 1,
+    "VerticalAlignment": "middle",
+    "__TypeCode__": "Web.HtmlTableCell",
+    "__Type__": "Vo"
+  },
+  "WebComponentList": {
+    "Id": 15000000030,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Web.WebComponent"
+    },
+    "ValueObjectList": [
+      {
+        "ItemKey": "15000000094",
+        "ValueObject": {
+          "CalculatedFieldList": {
+            "Id": 15000000096,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.CalculatedField"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "DataRecordType": {
+            "DesignId": 0,
+            "TypeCode": "Common.User"
+          },
+          "Id": 15000000094,
+          "Name": "User Profile",
+          "NamedObjectList": {
+            "Id": 15000000095,
+            "NamedObjectList": true,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.NamedObject"
+            },
+            "ValueObjectList": [{
+              "ItemKey": "999444",
+              "ValueObject": {
+                "Id": 999444,
+                "Name": "Calculated Fields",
+                "RelationshipList": [{
+                  "Id": 15000000108,
+                  "StartingTypeCode": {
+                    "DesignId": 0,
+                    "TypeCode": "Web.WebFormRecord"
+                  },
+                  "__TypeCode__": "Common.CalculatedFieldRelationship",
+                  "__Type__": "Vo"
+                }],
+                "ShortName": "Calculated Fields",
+                "StartingDesignObjectId": 0,
+                "StartingTypeCode": "Web.WebFormRecord",
+                "__TypeCode__": "Common.RelationshipNamedObject",
+                "__Type__": "Vo"
+              }
+            }],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "PreloadRecordReference": {
+            "AllowsFixed": false,
+            "DataType": "ValueObject",
+            "Fixed": false,
+            "Name": "",
+            "NamedObject": 0,
+            "Type": "RuleArgument",
+            "ValueObjectTypeCode": "Common.TransactionRecord"
+          },
+          "RestrictToUserGroupList": [],
+          "TableRowList": {
+            "Id": 15000000097,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Web.AbstractTableRow"
+            },
+            "ValueObjectList": [
+              {
+                "ItemKey": "15000000117",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000118,
+                    "LabelText": {"en": "Primary Identifier:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": true,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "Primary Identifier:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "PrimaryIdentifier",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000119,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": true,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 50,
+                    "TextWidth": 60,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.StringTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "PrimaryIdentifier",
+                  "Id": 15000000117,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              },
+              {
+                "ItemKey": "15000000123",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000124,
+                    "LabelText": {"en": "First Name:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": true,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "First Name:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "FirstName",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000125,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": true,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 40,
+                    "TextWidth": 40,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.StringTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "FirstName",
+                  "Id": 15000000123,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              },
+              {
+                "ItemKey": "15000000126",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000127,
+                    "LabelText": {"en": "Last Name:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": true,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "Last Name:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "LastName",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000128,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": true,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 50,
+                    "TextWidth": 60,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.StringTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "LastName",
+                  "Id": 15000000126,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              },
+              {
+                "ItemKey": "15000000132",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000133,
+                    "LabelText": {"en": "Email Address:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": false,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "Email Address:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "EmailAddress",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000134,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": false,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 50,
+                    "TextWidth": 160,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.StringTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "EmailAddress",
+                  "Id": 15000000132,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              },
+              {
+                "ItemKey": "15000000135",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000136,
+                    "LabelText": {"en": "Telephone Number:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": false,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "Telephone Number:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "TelephoneNumber",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "dataformat.northamerica.telephone.with.dashes.and.extension",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000137,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": false,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 20,
+                    "TextWidth": 20,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.StringTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "TelephoneNumber",
+                  "Id": 15000000135,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              }
+            ],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Web.TableWebComponent",
+          "__Type__": "Vo"
+        }
+      },
+      {
+        "ItemKey": "15000000147",
+        "ValueObject": {
+          "CalculatedFieldList": {
+            "Id": 15000000149,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.CalculatedField"
+            },
+            "ValueObjectList": [],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "DataRecordType": {
+            "DesignId": 0,
+            "TypeCode": "Common.UserSystemAccount"
+          },
+          "Id": 15000000147,
+          "Name": "System Account",
+          "NamedObjectList": {
+            "Id": 15000000148,
+            "NamedObjectList": true,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Common.NamedObject"
+            },
+            "ValueObjectList": [{
+              "ItemKey": "999444",
+              "ValueObject": {
+                "Id": 999444,
+                "Name": "Calculated Fields",
+                "RelationshipList": [{
+                  "Id": 15000000161,
+                  "StartingTypeCode": {
+                    "DesignId": 0,
+                    "TypeCode": "Web.WebFormRecord"
+                  },
+                  "__TypeCode__": "Common.CalculatedFieldRelationship",
+                  "__Type__": "Vo"
+                }],
+                "ShortName": "Calculated Fields",
+                "StartingDesignObjectId": 0,
+                "StartingTypeCode": "Web.WebFormRecord",
+                "__TypeCode__": "Common.RelationshipNamedObject",
+                "__Type__": "Vo"
+              }
+            }],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "PreloadRecordReference": {
+            "AllowsFixed": false,
+            "DataType": "ValueObject",
+            "Fixed": false,
+            "Name": "",
+            "NamedObject": 0,
+            "Type": "RuleArgument",
+            "ValueObjectTypeCode": "Common.TransactionRecord"
+          },
+          "RestrictToUserGroupList": [],
+          "TableRowList": {
+            "Id": 15000000150,
+            "NamedObjectList": false,
+            "TypeCode": {
+              "DesignId": 0,
+              "TypeCode": "Web.AbstractTableRow"
+            },
+            "ValueObjectList": [
+              {
+                "ItemKey": "15000000174",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000175,
+                    "LabelText": {"en": "User Name:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": true,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "User Name:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "UserName",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000176,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": true,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 50,
+                    "TextWidth": 200,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.StringTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "UserName",
+                  "Id": 15000000174,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              },
+              {
+                "ItemKey": "15000000180",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000181,
+                    "LabelText": {"en": "Password:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": true,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "Password:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "Password",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000182,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": true,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 20,
+                    "TextWidth": 20,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.PasswordTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "Password",
+                  "Id": 15000000180,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              },
+              {
+                "ItemKey": "15000000189",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000190,
+                    "LabelText": {"en": "Challenge Question:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": true,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "Challenge Question:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "ChallengeQuestion",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "CodeSetId": 0,
+                    "DataFormatCode": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000191,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": true,
+                    "Span": 1,
+                    "StaticField": false,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.CodeSetDropDownListControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "ChallengeQuestion",
+                  "Id": 15000000189,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              },
+              {
+                "ItemKey": "15000000192",
+                "ValueObject": {
+                  "ColumnOneCell": {
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000193,
+                    "LabelText": {"en": "Challenge Answer:"},
+                    "OtherTags": "",
+                    "ShowsRequiredFlag": true,
+                    "Span": 1,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.LabelTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnOneString": "Challenge Answer:",
+                  "ColumnThreeCell": "null",
+                  "ColumnTwoCell": {
+                    "BindingArgument": {
+                      "AllowsFixed": false,
+                      "AttributeCode": "ChallengeAnswer",
+                      "DataType": "null",
+                      "DesignId": 0,
+                      "Fixed": false,
+                      "Type": "RuleArgument",
+                      "TypeCode": "null"
+                    },
+                    "BoundToDataRecord": true,
+                    "DataFormatCode": "",
+                    "ExampleText": "",
+                    "FieldName": "",
+                    "HorizontalAlignment": "left",
+                    "Id": 15000000194,
+                    "OtherControlTags": "",
+                    "OtherTags": "",
+                    "Required": true,
+                    "Span": 1,
+                    "StaticField": false,
+                    "TextBoxWidth": 50,
+                    "TextWidth": 100,
+                    "VerticalAlignment": "middle",
+                    "__TypeCode__": "Web.StringTextBoxControlTableCell",
+                    "__Type__": "Vo"
+                  },
+                  "ColumnTwoString": "ChallengeAnswer",
+                  "Id": 15000000192,
+                  "NotInStaticForm": false,
+                  "ShowColumnOneAbove": false,
+                  "__TypeCode__": "Web.TableRow",
+                  "__Type__": "Vo"
+                }
+              }
+            ],
+            "__TypeCode__": "Common.ValueObjectList",
+            "__Type__": "Vo"
+          },
+          "__TypeCode__": "Web.TableWebComponent",
+          "__Type__": "Vo"
+        }
+      }
+    ],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "FormFooter": {
+    "HorizontalAlignment": "left",
+    "HtmlContent": {},
+    "Id": 15000000031,
+    "OtherTags": "",
+    "Span": 1,
+    "VerticalAlignment": "middle",
+    "__TypeCode__": "Web.HtmlTableCell",
+    "__Type__": "Vo"
+  },
+  "NamedObjectList": {
+    "Id": 22081000000727,
+    "NamedObjectList": true,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.NamedObject"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "CalculatedFieldList": {
+    "Id": 22081000000728,
+    "NamedObjectList": false,
+    "TypeCode": {
+      "DesignId": 0,
+      "TypeCode": "Common.CalculatedField"
+    },
+    "ValueObjectList": [],
+    "__TypeCode__": "Common.ValueObjectList",
+    "__Type__": "Vo"
+  },
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": []}

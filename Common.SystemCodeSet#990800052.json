@@ -1,0 +1,21 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800052,
+  "DesignIdentifier": "EnvironmentTypes",
+  "Name": {"en": "Environment Types"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "autotest": {"en": "Autotest"},
+    "dev": {"en": "Development"},
+    "live": {"en": "Live Production"},
+    "loadtest": {"en": "Load Test"},
+    "qa": {"en": "Quality Assurance"},
+    "ua": {"en": "User Acceptance"}
+  }}

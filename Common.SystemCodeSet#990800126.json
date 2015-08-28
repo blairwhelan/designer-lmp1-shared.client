@@ -1,0 +1,17 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800126,
+  "DesignIdentifier": "EncryptionMethodCodes",
+  "Name": {"en": "Encryption Methods"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "MD5": {"en": "PBE with MD5 and DES"},
+    "PAN": {"en": "PAN Encryption"}
+  }}

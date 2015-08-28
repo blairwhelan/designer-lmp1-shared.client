@@ -1,0 +1,22 @@
+{
+  "__Type__": "Vo",
+  "__TypeCode__": "Common.SystemCodeSet",
+  "Id": 990800078,
+  "DesignIdentifier": "day.of.week.codes",
+  "Name": {"en": "Days Of Week"},
+  "Promoted": false,
+  "Active": true,
+  "ShortName": "",
+  "DesignClientId": 9999,
+  "BuildId": 9996,
+  "ExtensibleAttributeList": [],
+  "ModifiedStandardAttributeList": [],
+  "Options": {
+    "1": {"en": "Sunday"},
+    "2": {"en": "Monday"},
+    "3": {"en": "Tuesday"},
+    "4": {"en": "Wednesday"},
+    "5": {"en": "Thursday"},
+    "6": {"en": "Friday"},
+    "7": {"en": "Saturday"}
+  }}
