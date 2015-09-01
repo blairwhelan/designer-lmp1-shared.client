@@ -7,8 +7,8 @@
   "Promoted": false,
   "Active": true,
   "ShortName": "",
-  "CreateWebFormId": 0,
-  "EditWebFormId": 0,
+  "CreateWebFormId": 85160,
+  "EditWebFormId": 85161,
   "ValidationRuleList": {
     "Id": 1000000025,
     "NamedObjectList": false,
@@ -20,7 +20,7 @@
     "__TypeCode__": "Common.ValueObjectList",
     "__Type__": "Vo"
   },
-  "Description": {},
+  "Description": {"en": ""},
   "UserGroupClassTypeCode": "Common.Person",
   "Numbering": "null",
   "SystemRoleId": 99030006,
@@ -28,7 +28,7 @@
   "ShippingAddressType": 0,
   "ShippingAddressSameAsMailing": false,
   "IdentifierUsedAsUserName": false,
-  "RegisterWebFormId": 0,
+  "RegisterWebFormId": 85162,
   "ViewWebFormId": 0,
   "NamedObjectList": {
     "Id": 1000000026,
@@ -53,6 +53,6 @@
     "__Type__": "Vo"
   },
   "DesignClientId": 9999,
-  "BuildId": 9996,
+  "BuildId": 0,
   "ExtensibleAttributeList": [],
   "ModifiedStandardAttributeList": []}
