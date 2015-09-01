@@ -7,7 +7,7 @@
   "Promoted": false,
   "Active": true,
   "ShortName": "",
-  "CreateWebFormId": 0,
+  "CreateWebFormId": 85160,
   "EditWebFormId": 0,
   "ValidationRuleList": {
     "Id": 1000000012,
@@ -20,7 +20,7 @@
     "__TypeCode__": "Common.ValueObjectList",
     "__Type__": "Vo"
   },
-  "Description": {},
+  "Description": {"en": ""},
   "UserGroupClassTypeCode": "Common.Person",
   "Numbering": "null",
   "SystemRoleId": 99030008,
@@ -53,7 +53,7 @@
     "__Type__": "Vo"
   },
   "DesignClientId": 9999,
-  "BuildId": 9996,
+  "BuildId": 0,
   "ExtensibleAttributeList": [{
     "Active": true,
     "AllowsRecordNotFound": false,
