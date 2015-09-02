@@ -6,7 +6,7 @@
   "Name": {"en": "Supplier Administrators"},
   "Promoted": false,
   "Active": true,
-  "ShortName": "",
+  "ShortName": "supplierAdmin",
   "CreateWebFormId": 85160,
   "EditWebFormId": 85161,
   "ValidationRuleList": {
