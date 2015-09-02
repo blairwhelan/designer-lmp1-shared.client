@@ -6,7 +6,7 @@
   "Name": {"en": "Supplier Administrators"},
   "Promoted": false,
   "Active": true,
-  "ShortName": "",
+  "ShortName": "supplierAdmins",
   "CreateWebFormId": 0,
   "EditWebFormId": 0,
   "ValidationRuleList": {
@@ -20,7 +20,7 @@
     "__TypeCode__": "Common.ValueObjectList",
     "__Type__": "Vo"
   },
-  "Description": {},
+  "Description": {"en": ""},
   "UserGroupClassTypeCode": "Common.Person",
   "Numbering": "null",
   "SystemRoleId": 99030008,
@@ -53,7 +53,7 @@
     "__Type__": "Vo"
   },
   "DesignClientId": 9999,
-  "BuildId": 9996,
+  "BuildId": 0,
   "ExtensibleAttributeList": [{
     "Active": true,
     "AllowsRecordNotFound": false,
